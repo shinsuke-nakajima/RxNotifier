@@ -40,7 +40,7 @@ namespace Assets.Notifier
         /// </summary>
         /// <param name="message">加工前メッセージ</param>
         /// <returns>通知してよい場合はtrue/さもなくばfalse</returns>
-        protected virtual bool CanNotifior(string message)
+        protected virtual bool CanNotify(string message)
         {
             return true;
         }
